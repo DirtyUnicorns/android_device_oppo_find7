@@ -31,5 +31,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensor/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf
 
+# Bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/du/bootanimations/bootanimation_1080_1920.zip:system/media/bootanimation.zip
+
 # Properties
 
