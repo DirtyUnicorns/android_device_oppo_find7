@@ -13,12 +13,6 @@
   },
   {
     "remote": "du",
-    "repository": "android_hardware_qcom_audio-caf-bfam",
-    "target_path": "hardware/qcom/audio-caf-bfam",
-    "revision": "du44"
-  },
-  {
-    "remote": "du",
     "repository": "android_device_oppo_msm8974-common",
     "target_path": "device/oppo/msm8974-common",
     "revision": "du44"
