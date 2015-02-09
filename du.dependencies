@@ -1,6 +1,8 @@
 [
   {
+  	"remote": "du",
     "repository": "android_device_oppo_find7-common",
     "target_path": "device/oppo/find7-common"
+    "branch": "lollipop-caf"
   }
 ]
