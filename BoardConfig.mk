@@ -18,4 +18,5 @@
 -include device/oppo/find7-common/BoardConfigCommon.mk
 
 # Assert
+TARGET_BOOTLOADER_BOARD_NAME := find7
 TARGET_OTA_ASSERT_DEVICE := find7,find7a,FIND7,X9006,X9007
