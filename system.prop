@@ -4,3 +4,6 @@
 
 ro.sf.lcd_density=480
 ro.oppo.device=find7
+
+#DU Updater
+ro.du.updater=find7
