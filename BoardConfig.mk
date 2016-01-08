@@ -105,10 +105,7 @@ BOARD_USES_QCOM_HARDWARE := true
 # Radio
 TARGET_RIL_VARIANT := caf
 
-# SELinux
-include device/qcom/sepolicy/sepolicy.mk
-
-BOARD_SEPOLICY_DIRS += device/oppo/find7/sepolicy
+#BOARD_SEPOLICY_DIRS += device/oppo/find7/sepolicy
 
 # Wifi
 BOARD_HAS_QCOM_WLAN              := true
@@ -130,7 +127,7 @@ WPA_SUPPLICANT_VERSION           := VER_0_8_X
 TARGET_SPECIFIC_HEADER_PATH += device/oppo/find7/include
 
 # Kernel
-BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3
+BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=qcom androidboot.selinux=permissive user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3
 TARGET_KERNEL_CONFIG := cyanogenmod_find7_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 TARGET_KERNEL_SOURCE := kernel/oppo/msm8974
