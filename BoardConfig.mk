@@ -98,9 +98,6 @@ TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
-# QCOM hardware
-BOARD_USES_QCOM_HARDWARE := true
-
 # Radio
 TARGET_RIL_VARIANT := caf
 
